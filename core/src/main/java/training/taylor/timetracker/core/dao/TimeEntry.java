@@ -10,8 +10,8 @@ import org.springframework.stereotype.Component;
 @Scope("prototype")
 public class TimeEntry {
     private String description;
-    private float rate;
-    private int time;
+    private  rate;
+    private  time;
 
     public String getDescription() {
         return description;
